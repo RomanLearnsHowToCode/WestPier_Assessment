@@ -143,6 +143,8 @@ class Teacher2 extends Person2 {
         if (sharedSubjects.length > 0){
 
             console.log("Teachers " + t1.name + " and " + t2.name + " share following subjects: " + sharedSubjects);
+        } else {
+            console.log("Teachers do not share any subjects they teach.")
         }
 
     }
@@ -166,8 +168,3 @@ console.log("*** QUESTION 3 PART 5: ***");
 Jeremy.getSharedSubjects(Jeremy, Margaret);
 
 console.log("*** END OF QUESTION 3 ***");
-      
-           /* C#
-           https://dotnetfiddle.net
-           https://www.tutorialsteacher.com/csharp/csharp-list 
-*/
